@@ -145,17 +145,18 @@ header .intro-text .skills {
     }
 
     .navbar-fixed-top .navbar-brand {
-        font-size: 2.4em;
+        font-size: 2.2em;
 		font-family: 'Sacramento', cursive;
 		 text-transform: none;
         -webkit-transition: all .2s;
         -moz-transition: all .2s;
         transition: all .2s;
+		margin-top: 5px;
     }
 
     .navbar-fixed-top.navbar-shrink {
         padding: 5px 0;
-		background: rgba(0,0,0,.8);
+		background: rgba(0,0,0,1);
     }
 
     .navbar-fixed-top.navbar-shrink .navbar-brand {
@@ -194,16 +195,37 @@ section {
 section h2 {
     margin: 0;
     font-size: 3em;
+	font-family: 'Josefin Sans', sans-serif;
+	letter-spacing: 2px;
+	font-weight: 100;
+	padding-bottom: 40px;
 }
+
+
+
 
 section.success {
     color: #fff;
     background: #18bc9c;
 }
 section.success2 {
-    color: #18bc9c;
-    background:#000000;
+    color: #2c3e50;
+    background:#f8f8f8;
 }
+
+section.success2 p{
+    color: #2c3e50;
+	font-family: 'Century Gothic', sans-serif;
+	text-align: left;
+	text-indent: 50px;
+	font-size: 18px;
+	word-spacing: 1px;
+	margin-right: 20px;
+	margin-left: 10px;
+    
+}
+
+
 @media(max-width:767px) {
     section {
         padding: 75px 0;
