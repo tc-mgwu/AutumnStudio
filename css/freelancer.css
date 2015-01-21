@@ -199,6 +199,7 @@ section h2 {
 	letter-spacing: 2px;
 	font-weight: 100;
 	padding-bottom: 40px;
+	
 }
 
 
@@ -225,6 +226,36 @@ section.success2 p{
     
 }
 
+section.portfolio{
+	color: #f8f8f8;
+    background: #2c3e50;
+}
+
+section.portfolio h2{
+margin: 0;
+    font-size: 3em;
+	font-family: 'Josefin Sans', sans-serif;
+	letter-spacing: 2px;
+	font-weight: 100;
+	padding-bottom: 40px;
+
+
+}
+section.portfolio h3{
+font-family: 'Josefin Sans', sans-serif;
+text-transform: capitalize;
+margin-top: -20px;
+font-weight: 100;
+margin-bottom: 50px;
+
+}
+
+section.portfolio p{
+font-family: 'Century Gothic', sans-serif;
+font-size: 20px;
+margin-left: 70px;
+
+}
 
 @media(max-width:767px) {
     section {
