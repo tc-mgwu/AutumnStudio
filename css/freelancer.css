@@ -82,7 +82,7 @@ hr.star-primary:after {
 header {
     text-align: center;
     color: #fff;
-    background: url('../img/bg.png') no-repeat;
+    background: url('../img/bg.jpg') no-repeat;
 	
 }
 
@@ -200,7 +200,10 @@ section.success {
     color: #fff;
     background: #18bc9c;
 }
-
+section.success2 {
+    color: #18bc9c;
+    background:#000000;
+}
 @media(max-width:767px) {
     section {
         padding: 75px 0;
